@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numbers and strings</title>
+</head>
+<body>
+    <h1>NUMBERS AND strings</h1>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <script>
+
+        //one statement many variables 
+
+        let pschool = "ganjoni" ; hschool = "butula boys " ; yunivazity = "multimedia universtity of kenya " ; 
+
+        /*
+        ONE statement many variables over many lines  ! 
+
+        */
+       let name1 = "maxwel" , 
+       name2 = "ayal" , 
+       name3 = "asher " ; 
+
+
+
+        var x = 10; 
+        var y = 15
+        const pi = 3.142 
+        let greeting = "GOOD MORNING ! "
+        let name = "maxwel ayal "
+        var total  = x + y ; 
+        
+        document.getElementById("demo1").innerHTML = total
+        document.getElementById("demo2").innerHTML = pi
+        document.getElementById("demo3").innerHTML = greeting
+        document.getElementById("demo4").innerHTML = name
+        document.getElementById("demo5").innerHTML = yunivazity
+        document.getElementById("demo6").innerHTML = name3
+
+        /*
+        if you happen to declare a variable without assingning a value to it , 
+        the output will be "undefined" . this is because of value = undefined
+
+        you can only re-declare variables with var . you cannot do that for items which have 
+        let and const . 
+        */
+    </script>
+    <!--
+        we can use var , let and , const in declaring variables 
+        they all work the same way 
+
+        NB : it is a good programming practice to 
+        declare variables ate the beginning of the script 
+    -->
+
+    <!--
+        strings can be added up easily 
+        let x = "John" + " " + "Doe";
+
+        same thin for numbers although there will be concatenation here 
+
+    EG  1
+    let x = "5" + 2 + 3;   the outcome will be 523 
+
+    EG 2
+    let x = 2 + 3 + "5"; the outcome will be 55 
+
+    the dollar sign $ is recognised ny javascript as a way of naming variables 
+
+    EG
+    let $ = "Hello World";
+    let $$$ = 2;
+    let $myMoney = 5;
+
+    -->
+
+    <!--
+        hoisting can only be done we will be using var !!
+    -->
+
+
+</body>
+</html>
